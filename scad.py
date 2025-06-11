@@ -120,10 +120,10 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
+        p3["width"] = 7
+        p3["height"] = 9
+        p3["thickness"] = 14
+        p3["extra"] = "paper_sheet_a7_74_mm_width_105_mm_height"
         part["kwargs"] = p3
         nam = "base"
         part["name"] = nam
@@ -131,7 +131,7 @@ def make_scad(**kwargs):
             p3["oomp_size"] = nam
         if not test:
             pass
-            #parts.append(part)
+            parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -182,6 +182,27 @@ def get_base(thing, **kwargs):
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+    #add cutout
+    if True:
+        if extra == "paper_sheet_a7_74_mm_width_105_mm_height":
+            wid = 76
+            hei = 106
+            dep = depth
+            size = [wid, hei, dep]
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative"
+            p3["shape"] = f"oobb_cube"
+            p3["size"] = size
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += 0
+            pos1[1] += 0
+            pos1[2] += 0
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+
+
 
     if prepare_print:
         #put into a rotation object
