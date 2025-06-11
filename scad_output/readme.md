@@ -1,0 +1,9 @@
+# Oomlout oobb part screen print frame
+
+
+## parts
+
+### base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra
+* link: [/base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra](base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra)  
+![](base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra/3dpr_300.png)  ![](base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra/image_300.jpg)
+ 
