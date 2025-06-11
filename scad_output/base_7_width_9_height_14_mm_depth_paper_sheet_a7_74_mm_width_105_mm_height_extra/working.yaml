@@ -1,0 +1,41 @@
+classification: project
+color: oomlout_oobb_part_screen_print_frame
+description_extra: paper_sheet_a7_74_mm_width_105_mm_height_extra
+description_main: base_7_width_9_height_14_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_part_screen_print_frame_base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra
+id_oobb: oobb_part_oomlout_oobb_part_screen_print_frame_base_7_width_9_height_14_mm_depth_paper_sheet_a7_74_mm_width_105_mm_height_extra
+kwargs:
+  extra: paper_sheet_a7_74_mm_width_105_mm_height
+  filter: ''
+  height: 9
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_oobb_part_screen_print_frame
+  oomp_description_extra: paper_sheet_a7_74_mm_width_105_mm_height_extra
+  oomp_description_main: base_7_width_9_height_14_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 14
+  type: oomlout_oobb_part_screen_print_frame_base
+  width: 7
+manufacturer: ''
+name: base
+part_number: ''
+project_name: C:\gh\oomlout_oobb_part_screen_print_frame
+size: oomlout
+type: github
